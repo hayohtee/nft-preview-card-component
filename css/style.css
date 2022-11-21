@@ -8,9 +8,99 @@
 
 body {
     font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    width: 350px;
+    margin: auto;
+}
+
+hr {
+    border: 1px solid  hsl(215, 32%, 27%);;
+}
+
+.card {
+    border: 25px solid hsl(216, 50%, 16%);
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+
+.card > * {
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.card h1 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.card p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.nft-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nft-container .price, .nft-container .duration {
+    display: flex;
+    align-items: center;
+}
+
+.nft-container p {
+    font-weight: 600;
+}
+
+.price p {
+    color: hsl(178, 100%, 50%);
+}
+
+.nft-container .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-container img {
+    width: 40px;
+    height: auto;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-container p {
+    font-weight: 400;
+}
+
+.profile-container .name {
+    color: hsl(0, 0%, 100%);
 }
 
 .attribution {
+    margin-top: 10px;
     font-size: 11px;
     text-align: center;
 }
